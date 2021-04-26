@@ -80,7 +80,7 @@ Kurzpräsentation (max. 10 Minuten pro Gruppe) der Projekte mit folgenden Inhalt
 # Hinweise zum Vorgehen
 * Nutzt das gegebene [_Framework.zip](_Framework/_Framework.zip)
 * Entwickelt so, dass ihr immer möglichst rasch Feedback bekommt zu dem, was schon funktioniert, z.B. zuerst leeren Controller und View erstellen, testen; dann in Controller Testdaten an View schicken und testen; dann Model implementieren, echte Daten holen und testen.
-* Strebt möglichst einheitliche Programmierrichtlinien an (Grossklein-Schreibung, Einrückung etc.), siehe dazu [Tag 1/04 PHP/11 Best Practices](../Tag%201/04%20PHP/11%20Best%20Practices/README.md)
+* Strebt möglichst einheitliche Programmierrichtlinien an (Grossklein-Schreibung, Einrückung etc.), siehe dazu [Tag 1/04 PHP/11 Best Practices](https://m307.ict-bz.ch/tag-1/04-php/11-best-practices)
 * Erstellt für die lokale Entwicklung eine lokale Datenbank [localhost/phpmyadmin](http://localhost/phpmyadmin/)
 * Beim Publizieren auf dem gemeinsamen Kursserver brauchst du die FTP-Zugänge in Moodle. Klärt mit der Kursleitung ab, welche Datenbank ihr für euer Projekt nutzen könnt. Die Datenbank kannst du mittels Export / Import in phpMyAdmin auf den gemeinsamen Server deployen. 
 
