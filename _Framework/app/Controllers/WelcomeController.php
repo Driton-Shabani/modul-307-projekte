@@ -8,7 +8,7 @@ class WelcomeController
 		
 		require 'app/Views/welcome.view.php';
 	}
-  
+	
 	public function new()
 	{
 		$pdo = db();
@@ -16,7 +16,7 @@ class WelcomeController
 		// Dein SQL-Code...
 		$statement->execute();
 		
-    // Umleiten auf die Startseite
+		// Umleiten auf die Startseite
 		header("Location: " . ROOT_URL . "/hallo/welt");
 	}
 	
