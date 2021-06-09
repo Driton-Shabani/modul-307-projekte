@@ -6,7 +6,7 @@ $routes = [
 ];
 
 $db = [
-	'name'     => 'tasklist',
+	'name'     => 'meinedatenbank',
 	'username' => 'root',
 	'password' => '',
 ];
