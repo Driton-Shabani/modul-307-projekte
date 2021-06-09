@@ -9,8 +9,6 @@ Bis zum Ende des Kurses habt ihr nun Zeit um eines der folgendes Projekte zu rea
 ## 1. Konzeptionierung
 Während der Konzeptionierung des Projektes erhaltet ihr die projektspezifischen Informationen. Eure Aufgabe in diesem Arbeitschritt ist es, die notwenigen Vorbereitungsaufgaben für die Realisation vorzunehmen. Der Kursleiter definiert, wann das Konzept abgegeben werden muss. Das abgegebene Dokument ist die Bewertungsgrundlage für den Punkt Konzeptionierung.
 
-Benutze die [Word-Vorlage](https://github.com/IctBerufsbildungZentralschweiz/modul-307-projekte/raw/master/.source/Projektarbeit_Konzept_VORLAGE.docx) für das Konzept.
-
 Folgende Bestandteile muss das Dokument mindestens enthalten:
 
 ### Titel & Team
@@ -66,7 +64,7 @@ Nachdem das Projekt geplant wurde, kann mit der Realisation gestartet werden. Ma
 * Projekt-Files
 * Datenbank-Export
 
-Nutze für das Projekt das [Framework](https://github.com/IctBerufsbildungZentralschweiz/modul-307/raw/master/.source/_Framework.zip).
+Nutze für das Projekt das [Framework](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FIctBerufsbildungZentralschweiz%2Fmodul-307-projekte%2Ftree%2Fmaster%2F_Framework).
 
 ## 3. Testbericht
 Ebenfalls ein Bestandteil des Projektes ist das Testing anhand der zu Beginn definierten Testfälle. In einem Testbericht sollen folgende Informationen zusammengetragen werden:
