@@ -102,11 +102,12 @@ Kurzpräsentation (max. 10 Minuten pro Gruppe) der Projekte mit folgenden Inhalt
 * Benutzerfreundlichkeit des Formulars / Informationsgruppierung
 * Korrekte Bearbeitungsmaske
 
-#### Validierung (11 P)
+#### Validierung (13 P)
 * Korrekte Validierung der Formularfelder
-* Benutzerfreundliche Validierung / Fehlerausgabe
+* Validierung auf Client- und Serverseite
+* Benutzerfreundliche Validierung / Fehlerausgabe (eine Meldung für ALLE Fehler)
 
-#### Datenspeicherung (9 P)
+#### Datenspeicherung (11 P)
 * Korrekt erstellte Datenbanktabelle
 * Korrekte und vollständige Speicherung der Daten
 * Korrekte Verknüpfung der Datenbanktabellen
@@ -120,15 +121,16 @@ Kurzpräsentation (max. 10 Minuten pro Gruppe) der Projekte mit folgenden Inhalt
 * Benutzerfreundlichkeit des Formulars / Informationsgruppierung
 * Korrekte Bearbeitungsmaske
 
-#### Validierung (4 P)
+#### Validierung (5 P)
 * Korrekte Validierung der Formularfelder
-* Benutzerfreundliche Validierung / Fehlerausgabe
+* Validierung auf Client- und Serverseite
+* Benutzerfreundliche Validierung / Fehlerausgabe (eine Meldung für ALLE Fehler)
 
 #### Datenmutation (4 P)
 * Korrekte und vollständige Speicherung der angepassten Daten
 
 ### Einträge anzeigen
-#### Liste (11 P)
+#### Liste (12 P)
 * Geforderte Informationen werden angezeigt
 * Übersichtliche Informationsanzeige / Benutzerfreundlichkeit
 * Korrekte Datendarstellung
@@ -146,4 +148,4 @@ Beispiel: In der View befindet sich die Logik-Komponente für das Überprüfen d
 ## Testbericht
 #### Testfälle (5 P)
 * Durchführung der Testfälle
-* Dokumentation der Testfälle
+* Dokumentation der Testresultate
