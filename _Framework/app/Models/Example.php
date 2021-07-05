@@ -16,13 +16,14 @@ class Example
     {
         $this->id = $id;
         $this->name = $name;
+
         return $this;
     }
 
     /**
      * Datensatz mit gegebener ID von der Datenbank ins Objekt laden
      */
-    public function load(int $id): ?self
+    public function find(int $id): ?self
     {
         $statement = db()->prepare('SELECT * FROM example WHERE id = :id LIMIT 1');
         $statement->bindParam(':id', $id);
@@ -33,20 +34,21 @@ class Example
             // Datensatz gefunden? Eigenschaften setzen und Objekt zurückgeben.
             $this->id = $result['id'];
             $this->name = $result['name'];
-            return $this;
 
-        } else {
-            // Datensatz NICHT gefunden? null zurückgeben.
-            return null;
+            return $this;
         }
+
+        // Datensatz NICHT gefunden -> null zurückgeben.
+        return null;
     }
 
     /**
-     * Alle Datensätze (welche eine Bedingung erfüllen) von der Datenbank laden
+     * Alle Datensätze aus der Datenbank laden.
      */
-    public function getAll(string $whereCondition = '')
+    public function getAll()
     {
-        $queryString = 'SELECT * FROM example' . ($whereCondition?(' WHERE ' . $whereCondition):'');
+        $queryString = 'SELECT * FROM example';
+
         // Dein Code ...
     }
 
@@ -60,14 +62,16 @@ class Example
         if (!$this->id) {
             // Neuer Datensatz einfügen (INSERT)
             $statement = db()->prepare('INSERT...');
+
             // Dein Code ...
 
-            // Neuer Datensatz? Setze die neue ID
+            // Die soeben erstellte ID setzen.
             $this->id = $db->lastInsertId();
 
-    } else {
+        } else {
             // Bestehender Datensatz aktualisieren (UPDATE)
             $statement = db()->prepare('UPDATE...');
+
             // Dein Code ...
         }
 
@@ -81,7 +85,7 @@ class Example
     public function delete(int $id = 0): int
     {
         // Falls keine $id angegeben ist, lösche den aktuell geladenen ($this->id) des Objektes.
-        if ($id == 0) {
+        if (!$id) {
             $id = $this->id;
         }
 
@@ -91,8 +95,8 @@ class Example
             
             // Gib die Anzahl der gespeicherten Datensätze zurück (1 = Erfolg, 0 = Fehler)
             return $statement->rowCount();
-        } else {
-            return 0;
         }
+
+        return 0;
     }
 }

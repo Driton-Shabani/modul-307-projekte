@@ -17,7 +17,7 @@ class WelcomeController
 		$statement->execute();
 		
 		// Umleiten auf die Startseite
-		header("Location: " . ROOT_URL . "/hallo/welt");
+		header('Location: ' . ROOT_URL . '/hallo/welt');
 	}
 	
 }
