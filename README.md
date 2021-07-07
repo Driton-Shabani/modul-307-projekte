@@ -80,7 +80,7 @@ Kurzpräsentation (max. 10 Minuten pro Gruppe) der Projekte mit folgenden Inhalt
 * Was würde ich das nächste Mal anders machen?
 
 # Hinweise zum Vorgehen
-* Nutzt das gegebene [_Framework.zip](_Framework/_Framework.zip)
+* Nutzt das gegebene Framework.zip
 * Entwickelt so, dass ihr immer möglichst rasch Feedback bekommt zu dem, was schon funktioniert, z.B. zuerst leeren Controller und View erstellen, testen; dann in Controller Testdaten an View schicken und testen; dann Model implementieren, echte Daten holen und testen.
 * Strebt möglichst einheitliche Programmierrichtlinien an (Grossklein-Schreibung, Einrückung etc.), siehe dazu [Tag 1/04 PHP/11 Best Practices](https://m307.ict-bz.ch/tag-1/04-php/11-best-practices)
 * Erstellt für die lokale Entwicklung eine lokale Datenbank [localhost/phpmyadmin](http://localhost/phpmyadmin/)
