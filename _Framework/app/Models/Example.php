@@ -9,10 +9,10 @@ class Example
     public string $name = '';
 
     /**
-     * create() initialisiert alle Eigenschaften des Objekts
+     * Der Konstruktor initialisiert alle Eigenschaften des Objekts
      * Für neue Datensätze kann die $id auf 0 gesetzt werden.
      */
-    public function create(int $id, string $name): ?self
+    public function __construct(int $id, string $name): ?self
     {
         $this->id = $id;
         $this->name = $name;
@@ -47,36 +47,23 @@ class Example
      */
     public function getAll()
     {
-        $queryString = 'SELECT * FROM example';
-
         // Dein Code ...
     }
 
     /**
-     * Speichere die Daten des aktuellen Objektes in die Datenbank (INSERT oder UPDATE)
+     * Erstellt einen neuen Eintrag in der Datenbank.
      */
-    public function save(): int
+    public function create(): int
     {
-        $db = db();
-
-        if (!$this->id) {
-            // Neuer Datensatz einfügen (INSERT)
-            $statement = db()->prepare('INSERT...');
-
-            // Dein Code ...
-
-            // Die soeben erstellte ID setzen.
-            $this->id = $db->lastInsertId();
-
-        } else {
-            // Bestehender Datensatz aktualisieren (UPDATE)
-            $statement = db()->prepare('UPDATE...');
-
-            // Dein Code ...
-        }
-
-        // Gib die Anzahl der gespeicherten Datensätze zurück (1 = Erfolg, 0 = Fehler)
-        return $statement->rowCount();
+        // Dein Code...
+    }
+    
+    /**
+     * Aktualisiert die aktuellen Daten in der Datenbank.
+     */
+    public function update(): int
+    {
+        // Dein Code...
     }
 
     /**
@@ -94,7 +81,7 @@ class Example
             // Dein Code ...
             
             // Gib die Anzahl der gespeicherten Datensätze zurück (1 = Erfolg, 0 = Fehler)
-            return $statement->rowCount();
+            // return $statement->rowCount();
         }
 
         return 0;
