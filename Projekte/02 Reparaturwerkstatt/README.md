@@ -20,7 +20,9 @@ Die Angestellten der anderen Abteilungen sollen die Möglichkeiten haben einen n
 
 Da die eingegebenen Informationen später für Marketing-Zwecke (Newsletter & Telemarketing) genutzt werden sollen, müssen die Email-Adresse und die Telefonnummer vor dem Speichern in die Datenbank überprüft werden. Es soll sichergestellt werden, dass die Email-Adresse ein @-Zeichen enthält und die Telefonnummer nur aus Nummern, Leerzeichen und folgenden Symbolen besteht: +/-)(
 
-Eine Liste sämtlicher Objekte, welche vom Bauunternehmen genutzt werden und somit kaputt gehen können, wurden bereits erfasst und im Projektordner abgelegt: [Werkzeugliste](src)
+**Validierung**: Um Flaschenhälse zu verhindern, den Server zu entlasten und die Sicherheit zu gewährleisten, sollen die Daten vor dem Abschicken clientseitig via JavaScript und vor dem Speichern in die Datenbank serverseitig via PHP validiert werden.
+
+Eine Liste sämtlicher Objekte, welche vom Bauunternehmen genutzt werden und somit kaputtgehen können, wurden bereits erfasst und im Projektordner abgelegt: [Werkzeugliste](src)
 
 Damit die Mitarbeiter wissen, wann sie wieder mit dem Werkzeug rechnen können, soll beim Erfassen des Reparaturaufträges sofort berechnet werden, wann das Werkzeug voraussichtlich wieder zurück ist (das Einsende-Datum des Reparaturauftrages ist immer der aktuelle Tag). Diese Information soll dem Mitarbeiter noch vor dem Speichern des Auftrages angezeigt werden. Dabei muss die Dringlichkeit des Reparatur-Status berücksichtig werden (siehe Details bei Dringlichkeit).
 
@@ -36,7 +38,7 @@ Die Dringlichkeit bestimmt die Anzahl Tage bis zur Rückgabe des reparierten Wer
 | sehr hoch     |            - 10           |            5           |
 
 ## Reparaturauftrag bearbeiten
-Neben der Erfassung von neuen Reparaturaufträgen sollen auch bestehende Aufträge durch die Reparatur-Abeilung bearbeitet werden können. Folgende Informationen müssen mutiert werden können:
+Neben der Erfassung von neuen Reparaturaufträgen sollen auch bestehende Aufträge durch die Reparatur-Abteilung bearbeitet werden können. Folgende Informationen müssen mutiert werden können:
 
 | Feld                   |
 |------------------------|
