@@ -88,34 +88,35 @@ Kurzpräsentation (max. 10 Minuten pro Gruppe) der Projekte mit folgenden Inhalt
 
 # Bewertungsraster
 ## Konzept
-* Definition des Formulars (3 P)
+* Definition des Formulars (4 P)
 * Planung der Validierung (2 P)
-* Planung der Datenbank (3 P)
+* Planung der Datenbank (4 P)
+* Erstellung der Sitemap (1.5 P)
 * Sinnvolle Einteilung der Arbeiten - Roadmap (2 P)
-* Definition der Testfälle (10 P)
+* Definition der Testfälle (9 P)
 
 ## Realisation
 ### Eintrag erstellen
-#### Formular (10 P)
+#### Formular (6 P)
 * Vollständigkeit der Felder
 * Richtigkeit der Feld-Typen
 * Benutzerfreundlichkeit des Formulars / Informationsgruppierung
 * Korrekte Bearbeitungsmaske
 
-#### Validierung (13 P)
+#### Validierung (7.5 P)
 * Korrekte Validierung der Formularfelder
 * Validierung auf Client- und Serverseite
 * Benutzerfreundliche Validierung / Fehlerausgabe (eine Meldung für ALLE Fehler)
 
-#### Datenspeicherung (11 P)
+#### Datenspeicherung (7.5 P)
 * Korrekt erstellte Datenbanktabelle
 * Korrekte und vollständige Speicherung der Daten
 * Korrekte Verknüpfung der Datenbanktabellen
 
-#### Zusatzaufgabe (3 P)
+#### Berechnung (3 P)
 
 ### Eintrag bearbeiten
-#### Formular (10 P)
+#### Formular (9 P)
 * Vollständigkeit der Felder
 * Richtigkeit der Feld-Typen
 * Benutzerfreundlichkeit des Formulars / Informationsgruppierung
@@ -126,7 +127,7 @@ Kurzpräsentation (max. 10 Minuten pro Gruppe) der Projekte mit folgenden Inhalt
 * Validierung auf Client- und Serverseite
 * Benutzerfreundliche Validierung / Fehlerausgabe (eine Meldung für ALLE Fehler)
 
-#### Datenmutation (4 P)
+#### Datenmutation (5 P)
 * Korrekte und vollständige Speicherung der angepassten Daten
 
 ### Einträge anzeigen
@@ -136,9 +137,9 @@ Kurzpräsentation (max. 10 Minuten pro Gruppe) der Projekte mit folgenden Inhalt
 * Korrekte Datendarstellung
 * Korrekte Verlinkung zu den anderen Ansichten
 
-#### Zusatzaufgabe (3 P)
+#### Zusatzaufgabe: Bulk-Änderung (3 P)
 
-### DONTS (10 P)
+### DONTS (20 P)
 DONTS sind Fehler, welche nicht durch das Bewertungsraster abgedeckt werden und sich negativ auf das Projekt auswirken. Für diese Fehler/DONTS werden euch Punkte abgezogen. Ist euer Applikations-Code frei von DONTS erhaltet ihr die vollen 10 Punkte. 
 
 Enthält euer Code ein oder mehrere DONTS, wird je nach Umfang und Auswirkungen des Fehlers entschieden, wieviel Punkte abgezogen werden. Maximal können euch 10 Punkte für sämtliche DONTS abgezogen werden.
@@ -146,6 +147,6 @@ Enthält euer Code ein oder mehrere DONTS, wird je nach Umfang und Auswirkungen 
 Beispiel: In der View befindet sich die Logik-Komponente für das Überprüfen der gesendeten POST-Daten. => - 2 P
 
 ## Testbericht
-#### Testfälle (5 P)
+#### Testfälle (2.5 P)
 * Durchführung der Testfälle
 * Dokumentation der Testresultate
