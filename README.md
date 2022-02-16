@@ -1,9 +1,9 @@
 # Projektarbeit
 Bis zum Ende des Kurses habt ihr nun Zeit um eines der folgendes Projekte zu realisieren. Das Projekt ist gleichzeitig auch die Bewertungsgrundlage für diesen Kurs. Das Projekt besteht aus drei Teilen mit folgender Gewichtung:
 
-1. Konzeptionierung (20%)
-2. Realisierung (65% + 10% DONTS)
-3. Testbericht (5%)
+1. Konzeptionierung (12.5%)
+2. Realisierung (65% + 20% DONTS)
+3. Testbericht (2.5%)
 
 
 ## 1. Konzeptionierung
@@ -140,7 +140,7 @@ Kurzpräsentation (max. 10 Minuten pro Gruppe) der Projekte mit folgenden Inhalt
 #### Zusatzaufgabe: Bulk-Änderung (3 P)
 
 ### DONTS (20 P)
-DONTS sind Fehler, welche nicht durch das Bewertungsraster abgedeckt werden und sich negativ auf das Projekt auswirken. Für diese Fehler/DONTS werden euch Punkte abgezogen. Ist euer Applikations-Code frei von DONTS erhaltet ihr die vollen 10 Punkte. 
+DONTS sind Fehler, welche nicht durch das Bewertungsraster abgedeckt werden und sich negativ auf das Projekt auswirken. Für diese Fehler/DONTS werden euch Punkte abgezogen. Ist euer Applikations-Code frei von DONTS erhaltet ihr die vollen 20 Punkte. 
 
 Enthält euer Code ein oder mehrere DONTS, wird je nach Umfang und Auswirkungen des Fehlers entschieden, wieviel Punkte abgezogen werden. Maximal können euch 10 Punkte für sämtliche DONTS abgezogen werden.
 
