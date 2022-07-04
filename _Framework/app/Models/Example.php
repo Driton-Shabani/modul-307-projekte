@@ -12,7 +12,7 @@ class Example
      * Der Konstruktor initialisiert alle Eigenschaften des Objekts
      * Für neue Datensätze kann die $id auf 0 gesetzt werden.
      */
-    public function __construct(int $id, string $name): ?self
+    public function __construct(int $id, string $name)
     {
         $this->id = $id;
         $this->name = $name;
